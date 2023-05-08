@@ -11,16 +11,17 @@ set $right  l
 # Prefered terminal emulator
 set $term   kitty
 
+# Prefered menu
+set $menu   wofi --show run
+
 ### Output configuration
-output HDMI-A-3 resolution 1920x1080@75Hz position 0,0
-output HDMI-A-2 resolution 1920x1080@75Hz position 1920,0
+output HDMI-A-1 resolution 1920x1080@120Hz position 0,0
 
 output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 
-focus output HDMI-A-3
+focus output HDMI-A-1
 
-workspace 1 output HDMI-A-3
-workspace 2 output HDMI-A-2
+workspace 1 output HDMI-A-1
 
 ### Visualization
 gaps inner 8
@@ -66,7 +67,7 @@ bindsym $mod+t exec $term
 bindsym $mod+q kill
 
 # Start your launcher
-bindsym $mod+r exec wofi --show run
+bindsym $mod+r exec $menu
 
 # Drag floating windows by holding down $mod and left mouse button.
 # Resize them with right mouse button + $mod.
