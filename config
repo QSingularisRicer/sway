@@ -12,12 +12,12 @@ set $right  l
 set $term   kitty
 
 # Prefered menu
-set $menu   wofi --show run
+set $menu   rofi -show drun
 
 ### Output configuration
 output HDMI-A-1 resolution 1920x1080@120Hz position 0,0
 
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg ~/.config/sway/wallpapers/yae-kasumi.png fill
 
 focus output HDMI-A-1
 
