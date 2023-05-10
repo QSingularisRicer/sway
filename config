@@ -25,9 +25,9 @@ workspace 1 output HDMI-A-1
 
 ### Visualization
 gaps inner 5
-gaps outer 8
+gaps outer 5
 font pango: Jetbrains Mono Nerd Font 10
-default_border pixel 4
+default_border pixel 2
 
 # Set colors
 # class                     border      backgr      text        indicator   child_border
