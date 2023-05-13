@@ -14,6 +14,9 @@ set $term   kitty
 # Prefered menu
 set $menu   rofi -drun-use-desktop-cache -show drun
 
+# Execute at start up
+exec --no-startup-id /usr/lib/xdg-desktop-portal -r
+
 ### Output configuration
 output HDMI-A-1 resolution 1920x1080@120Hz position 0,0
 
