@@ -20,7 +20,7 @@ exec --no-startup-id /usr/lib/xdg-desktop-portal -r
 ### Output configuration
 output HDMI-A-1 resolution 1920x1080@120Hz position 0,0
 
-output * bg ~/.config/sway/wallpapers/yae-kasumi.png fill
+output * bg ~/.config/sway/wallpaper.png fill
 
 focus output HDMI-A-1
 
@@ -86,7 +86,7 @@ bindsym $mod+q kill
 bindsym $mod+r exec $menu
 
 # Lock screen
-bindsym $mod+Escape exec fish ~/.config/sway/scripts/swaylock.fish
+bindsym $mod+Escape exec swaylock --font 'CodeNewRoman Nerd Font'
 
 # Drag floating windows by holding down $mod and left mouse button.
 # Resize them with right mouse button + $mod.
