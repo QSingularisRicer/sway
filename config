@@ -85,6 +85,9 @@ bindsym $mod+q kill
 # Start your launcher
 bindsym $mod+r exec $menu
 
+# Lock screen
+bindsym $mod+Escape exec fish ~/.config/sway/scripts/swaylock.fish
+
 # Drag floating windows by holding down $mod and left mouse button.
 # Resize them with right mouse button + $mod.
 # Despite the name, also works for non-floating windows.
