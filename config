@@ -12,7 +12,8 @@ set $right  l
 set $term   kitty
 
 # Prefered menu
-set $menu   rofi -drun-use-desktop-cache -show drun
+# set $menu   rofi -drun-use-desktop-cache -show drun
+set $menu   rofi -show drun
 
 # Execute at start up
 exec --no-startup-id /usr/lib/xdg-desktop-portal -r
