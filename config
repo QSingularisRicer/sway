@@ -23,10 +23,6 @@ output HDMI-A-1 resolution 1920x1080@120Hz position 0,0
 
 output * bg ~/.config/sway/wallpaper.png fill
 
-focus output HDMI-A-1
-
-workspace 1 output HDMI-A-1
-
 ### Visualization
 gaps inner 5
 gaps outer 5
