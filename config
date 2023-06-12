@@ -19,14 +19,16 @@ set $menu   rofi -show drun
 exec --no-startup-id /usr/lib/xdg-desktop-portal -r
 
 ### Output configuration
-output HDMI-A-1 resolution 1920x1080@120Hz position 0,0
-
-output * bg ~/.config/sway/wallpaper.jpg fill
+output HDMI-A-1 {
+    mode 1920x1080@120Hz 
+    pos 0 0
+    bg ~/.config/sway/wallpaper.jpg fill
+}
 
 ### Visualization
 gaps inner 5
 gaps outer 5
-font pango: Jetbrains Mono Nerd Font 10
+# font pango: Jetbrains Mono Nerd Font 10
 default_border pixel 2
 
 # Set colors
